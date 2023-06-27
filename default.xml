@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="polaarbear" fetch="https://github.com/polaarbear/" revision="main" />
-    <project path="device/microsoft/duo" name="duo_twrp_device_tree" remote="polaarbear" revision="main" />
+    <remote name="github" fetch="https://github.com" />
+    <project path="device/microsoft/duo" name="polaarbear/duo_twrp_device_tree" remote="github" revision="main" />
+    <project name="kernel/msm" path="kernel/msm" remote="github" revision="surfaceduo/11/2022.829.13" />
 </manifest>
