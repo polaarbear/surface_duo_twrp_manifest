@@ -2,5 +2,5 @@
 <manifest>
     <remote name="github" fetch="https://github.com" />
     <project path="device/microsoft/duo" name="polaarbear/duo_twrp_device_tree" remote="github" revision="main" />
-    <project name="kernel/msm" path="kernel/msm" remote="github" revision="surfaceduo/11/2022.829.13" />
+    <project name="microsoft/surface-duo-oss-kernel.manifest" path="kernel/msm" remote="github" revision="surfaceduo/11/2022.829.13" />
 </manifest>
