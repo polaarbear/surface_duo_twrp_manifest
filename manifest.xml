@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="duo_device" fetch="https://github.com/polaarbear/duo_twrp_device_tree" revision="main" />
+    <project path="device/microsoft/duo" name="duo_twrp_device" remote="duo_device" revision="main" />
+</manifest>
